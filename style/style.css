@@ -1,0 +1,133 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+
+main {
+    padding: 20px;
+
+}
+
+/* start baner section */
+.baner {
+    border: 1px solid black;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    border-radius: 10px;
+    padding: 40px;
+
+}
+
+.baners-left-side {}
+
+.baner-h1 {
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.baner-p {
+    font-weight: 50;
+    font-size: 25px;
+}
+
+.baners-right-side {
+    position: relative;
+    left: 50px;
+}
+
+.watch-button {
+    background-color: red;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.baners-img {
+    width: 500px;
+    height: 600px;
+    padding-right: 50px;
+}
+
+/* end baner section */
+.stage {
+    padding-top: 60px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+    position: absolute;
+    left: 445px;
+
+
+}
+
+
+.blogs {
+    width: 312px;
+    height: 422px;
+    background-color:
+        #E8E8E8;
+    border-radius: 10px;
+    gap: 10px;
+
+
+
+
+
+
+}
+
+.blogs-div-2 {
+    padding: 20px;
+}
+
+.icon-gap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.box {
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    width: 312px;
+    height: 380px;
+
+}
+
+.boxs {
+    width: 252px;
+    height: 64px;
+    text-align: center;
+    padding: 40px;
+    margin-left: 30px;
+
+
+
+}
+
+#red-blog {
+    background-color: red;
+    color: #E8E8E8;
+}
+
+.side-box {
+    position: relative;
+    right: 420px;
+    bottom: 1290px;
+}
+
+/***************
+ end stage 
+ ************/
+footer {
+    color: red;
+}
