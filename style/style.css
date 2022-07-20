@@ -185,4 +185,43 @@ hr {
         right: 420px;
         bottom: 1390px;
 
+
     }
+
+    .blog {
+        /* display: grid;
+        grid-template-columns: repeat(1, 1fr); */
+    }
+
+    .foots {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 0;
+        grid-row-gap: 1px;
+        width: 375px;
+        height: 284px;
+    }
+
+    .footer {
+        width: 1358px;
+        height: 200px;
+        background-color: #161616;
+        position: relative;
+        top: 1260px;
+        color: #E8E8E8;
+        padding-left: 70px;
+        border-radius: 5px;
+
+    }
+
+    .foot {
+        text-align: center;
+    }
+
+    hr {
+        text-align: center;
+    }
+
+
+
+}
