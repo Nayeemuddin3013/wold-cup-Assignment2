@@ -129,5 +129,28 @@ main {
  end stage 
  ************/
 footer {
-    color: red;
+    width: 1358px;
+    height: 200px;
+    background-color: #161616;
+    position: relative;
+    top: 1260px;
+    color: #E8E8E8;
+    padding-left: 70px;
+    border-radius: 5px;
+
+
+}
+
+.foot {
+    text-align: center;
+}
+
+hr {
+    width: 1230px;
+}
+
+.foots {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 5px;
 }
